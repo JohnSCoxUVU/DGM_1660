@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Watch 28 WE DONE FIXED IT.ma
-//Last modified: Tue, Sep 29, 2020 12:49:42 AM
+//Last modified: Tue, Sep 29, 2020 12:56:58 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -14,15 +14,15 @@ fileInfo "osv" "Microsoft Windows 8 Business Edition, 64-bit  (Build 9200)\n";
 createNode transform -s -n "persp";
 	rename -uid "9FA440A5-4479-99E7-D282-90A751771FCF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.9704553917314032 16.595603796928373 -13.878460638542474 ;
-	setAttr ".r" -type "double3" 309.8616460695261 -7020.5999999856795 0 ;
+	setAttr ".t" -type "double3" -7.0837599124638011 150.32883350402366 42.646978119279822 ;
+	setAttr ".r" -type "double3" 284.6616460694836 -7204.1999999851614 -3.9863989168373473e-16 ;
 	setAttr ".rp" -type "double3" -4.4408920985006262e-16 -1.1102230246251565e-16 -1.1102230246251565e-16 ;
 	setAttr ".rpt" -type "double3" -6.7630513993215386e-14 -7.5964892477764092e-14 -2.9922397003216064e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "EBB7B3F0-4219-563D-0BA8-DDAAB3970DBB";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 25.714628641204868;
+	setAttr ".coi" 158.63727562180262;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
