@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Watch 37 UV Mapped as best I can.ma
-//Last modified: Fri, Oct 23, 2020 10:35:56 PM
+//Last modified: Fri, Oct 23, 2020 10:44:12 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "osv" "Microsoft Windows 8 Business Edition, 64-bit  (Build 9200)\n";
 createNode transform -s -n "persp";
 	rename -uid "9FA440A5-4479-99E7-D282-90A751771FCF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -32.495559031924152 56.359775406938127 10.447921386548499 ;
+	setAttr ".t" -type "double3" -38.836521885000124 66.756339881862772 10.958103144067382 ;
 	setAttr ".r" -type "double3" 661.46164601021815 -11965.399999999618 -3.9658320953998906e-14 ;
 	setAttr ".rp" -type "double3" -4.4408920985006262e-16 -1.1102230246251565e-16 -1.1102230246251565e-16 ;
 	setAttr ".rpt" -type "double3" -6.7630513993215386e-14 -7.5964892477764092e-14 -2.9922397003216064e-14 ;
@@ -21,7 +21,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "EBB7B3F0-4219-563D-0BA8-DDAAB3970DBB";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 61.07583408430164;
+	setAttr ".coi" 73.264215773888907;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
